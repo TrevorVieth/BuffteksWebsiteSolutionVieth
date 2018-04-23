@@ -29,8 +29,8 @@ namespace BuffteksWebsite
             services.AddDbContext<BuffteksWebsiteContext>(options =>
                     options.UseSqlite("Data Source=BuffteksWebsite.db"));
 
-            services.AddDbContext<BuffTeksWebsiteContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("BuffTeksWebsiteContext")));
+            // services.AddDbContext<BuffTeksWebsiteContext>(options =>
+            //         options.UseSqlServer(Configuration.GetConnectionString("BuffTeksWebsiteContext")));
 
         }
 

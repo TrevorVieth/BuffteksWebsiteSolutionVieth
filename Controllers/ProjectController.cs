@@ -11,9 +11,9 @@ namespace BuffteksWebsite.Controllers
 {
     public class ProjectController : Controller
     {
-        private readonly BuffTeksWebsiteContext _context;
+        private readonly BuffteksWebsiteContext _context;
 
-        public ProjectController(BuffTeksWebsiteContext context)
+        public ProjectController(BuffteksWebsiteContext context)
         {
             _context = context;
         }

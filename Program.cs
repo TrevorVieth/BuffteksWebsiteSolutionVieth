@@ -16,6 +16,27 @@ namespace BuffteksWebsite
     {
         public static void Main(string[] args)
         {
+
+            // //The Three ingredients of LINQ
+            // //1, Create pr access a linear data structure that impliments IEnumerable
+            // string[] names = new string []
+            // {"Jeff", "Frank", "Kolton", "Ian", "Mike", "Gabby"};
+
+            // //Develope a query
+            // var namesFilteredShort = 
+            //     from name in names
+            //     where name.Length <= 4
+            //     select name; 
+
+            // string name1 = "asdaf";
+
+            // //Execute a query
+            // foreach(string name in names)
+            // {
+            //     Console.Write($"data is :{name}\n");
+            // }
+
+
             var host = BuildWebHost(args);
             //BuildWebHost(args).Run();
 

@@ -11,9 +11,9 @@ namespace BuffteksWebsite.Controllers
 {
     public class MemberController : Controller
     {
-        private readonly BuffTeksWebsiteContext _context;
+        private readonly BuffteksWebsiteContext _context;
 
-        public MemberController(BuffTeksWebsiteContext context)
+        public MemberController(BuffteksWebsiteContext context)
         {
             _context = context;
         }
