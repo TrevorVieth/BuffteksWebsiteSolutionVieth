@@ -28,23 +28,27 @@ namespace BuffteksWebsite.Models
                          Major = "BA-CIS",
                          Birthday = "12/21/1996",
                          Email = "TrevorDLV@Gmail.com",
-                         Phone = "806-681-5067"
+                         Phone = "806-681-5067",
+                     },
 
+                     new Member
+                     {
+                         MemberID = 1,
+                         FirstName = "John",
+                         LastName = "Kieth",
+                         Standing = "Junior",
+                         Major = "CIS",
+                         Birthday = "12/21/1996",
+                         Email = "TrevorDLV@Gmail.com",
+                         Phone = "806-681-5067",
                      }
-                    //,
-
-                    //  new Member
-                    //  {
-                    //      MemberID = 1,
-                    //      FirstName = "Trevor",
-                    //      LastName = "Vieth",
-                    //      Standing = "Junior",
-                    //      Major = "BA-CIS",
-                    //      Birthday = "12/21/1996",
-                    //      Email = "TrevorDLV@Gmail.com",
-                    //      Phone = "806-681-5067"
-                    //  }
+                    
                 );
+
+
+
+
+
 
                 context.Client.AddRange(
                      new Client
